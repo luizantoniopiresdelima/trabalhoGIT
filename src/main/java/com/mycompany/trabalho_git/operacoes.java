@@ -9,12 +9,19 @@ public class operacoes {
         return a - b;
     }
     
+    public static int multiplicar(int a, int b) {
+        return a * b;
+    }
+    
     public static void main(String[] args) {
         int soma = somar(5, 3);
         System.out.println("Soma: " + soma); 
         
         int subtracao = subtrair(10, 4);
         System.out.println("Subtração: " + subtracao);
+        
+        int multiplicacao = multiplicar(6, 7);
+        System.out.println("Multiplicação: " + multiplicacao); 
     }
 } 
 
